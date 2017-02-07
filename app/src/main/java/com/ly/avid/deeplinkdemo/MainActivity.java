@@ -16,7 +16,6 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         TextView txt = (TextView) findViewById(R.id.txt);
-
         Intent it = getIntent();
         if (it.getData() != null){
             Uri uri = it.getData();
